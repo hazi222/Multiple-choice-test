@@ -1,6 +1,9 @@
 let userAnswers = [];
 
-const questions = [  {    question: "What is the capital of France?",    answers: ["Paris", "Madrid", "London", "Berlin"],
+const questions = [  
+  {    
+    question: "What is the capital of France?",    
+    answers: ["Paris", "Madrid", "London", "Berlin"],
     correctAnswer: 0,
   },
   {
