@@ -143,6 +143,7 @@ function restartQuiz() {
   currentQuestion = 0;
   score = 0;
   resultsContainer.style.display = "none";
+  document.querySelector("#answers-table tbody").innerHTML = ""; // clear previous answers
   quizContainer.style.display = "none"; // hide quiz container
   document.querySelector('.quiz-container').style.display = 'flex'; // show welcome container
 }
